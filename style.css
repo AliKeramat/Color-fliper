@@ -1,0 +1,35 @@
+*{
+     text-align: center;
+}
+body {
+    background-color: black;
+}
+h1,#ican {
+    color: aliceblue;
+    box-shadow:
+    0 0 25px #5ddcff,
+    0 0 25px #4e00c2;
+}
+ #ican {
+    color: aliceblue;
+    box-shadow:
+    0 0 15px #5ddcff,
+    0 0 10px #4e00c2 ;
+    margin-top: 30px;  
+ }
+.btn {
+    margin-top: 30px;    
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: 1px solid #3c67e3;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.btn:hover {
+    box-shadow:
+    0 0 25px #5ddcff,
+    0 0 30px #4e00c2;
+}
